@@ -1,0 +1,225 @@
+/* MENU STYLE */
+
+body {
+   margin: 0;
+}
+.menu-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #5769DF;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.menu-list > li > a {
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ---------------------------------------------------- */
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.color-holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.color {
+    flex: 1;
+}
+
+
+/* SIENNA */
+
+.sienna {
+    position: relative;
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: #E87C4B;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+
+}
+
+.sienna > p {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.color-1 > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+/* ROYAL BLUE */
+
+.royal {
+    position: relative;
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: #5769DF;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+
+}
+
+.royal > p {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.color-2 > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* MELROSE */
+
+.melrose {
+    position: relative;
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: #ADBAFF;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+
+}
+
+.melrose > p {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.color-3 > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* SINBAD */
+
+.sinbad {
+    position: relative;
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: #AFDDCD;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+
+}
+
+.sinbad > p {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.color-4 > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* CHEROKEE */
+
+.cherokee {
+    position: relative;
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: #FFEAAD;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+
+}
+
+.cherokee > p {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.color-5 > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* MINE */
+
+.mine {
+    position: relative;
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: #393939;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px;
+
+}
+
+.mine > p {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.color-6 > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+/* ---------------------------------------------------- */
