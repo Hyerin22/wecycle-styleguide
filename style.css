@@ -31,7 +31,7 @@ body {
 
 .menu-list > li > a {
     text-decoration: none;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -39,23 +39,38 @@ body {
 
 /* ---------------------------------------------------- */
 
+/* COLOR */
 .holder {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
+    margin: 0;
 }
 
 .color-holder {
     display: flex;
-    flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.color-head-holder {
+    display: flex;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: left;
+    font-family: 'Fredoka One', cursive;
+    padding: 5rem;
+}
+
 
 
 .color {
-    flex: 1;
+    margin: 30px;
 }
+
 
 
 /* SIENNA */
@@ -63,8 +78,8 @@ body {
 .sienna {
     position: relative;
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 30rem;
+    width: 30rem;
     background-color: #E87C4B;
     padding: 0px;
     margin: 0px;
@@ -91,8 +106,8 @@ body {
 .royal {
     position: relative;
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 30rem;
+    width: 30rem;
     background-color: #5769DF;
     padding: 0px;
     margin: 0px;
@@ -118,8 +133,8 @@ body {
 .melrose {
     position: relative;
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 30rem;
+    width: 30rem;
     background-color: #ADBAFF;
     padding: 0px;
     margin: 0px;
@@ -145,8 +160,8 @@ body {
 .sinbad {
     position: relative;
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 30rem;
+    width: 30rem;
     background-color: #AFDDCD;
     padding: 0px;
     margin: 0px;
@@ -172,8 +187,8 @@ body {
 .cherokee {
     position: relative;
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 30rem;
+    width: 30rem;
     background-color: #FFEAAD;
     padding: 0px;
     margin: 0px;
@@ -199,8 +214,8 @@ body {
 .mine {
     position: relative;
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 30rem;
+    width: 30rem;
     background-color: #393939;
     padding: 0px;
     margin: 0px;
