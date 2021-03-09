@@ -9,7 +9,7 @@ body, head{
 /* MENU STYLE */
 
 body {
-    margin: 0;
+    overflow-x: hidden;
 }
 .menu-container {
     display: flex;
@@ -52,7 +52,8 @@ body {
 .holder {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width:100%;
+    justify-content: center;
     flex-direction: column;
     margin: 0;
 }
@@ -64,21 +65,25 @@ body {
     justify-content: center;
 }
 
+
+
 .color-head-holder {
     display: flex;
     width: 100%;
-    
+    flex: 1;
     align-items: center;
+    flex-flow: wrap;
     justify-content: left;
+    padding-left: 7rem;
     font-family: 'Fredoka One', cursive;
-    padding: 5rem;
 }
-
-
 
 .color {
     margin: 30px;
 }
+
+
+
 
 
 
