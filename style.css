@@ -290,16 +290,56 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: yellow;
+    margin: 1rem 0px;
 }
 
 /* SECOND COLOR */
 
 /* INSIDE COLOR */
 .sienna-circle {
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     background-color: #E87C4B;
+    border-radius: 50%;
+    border: solid black 5px;
+}
+
+.royal-circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: #5769DF;
+    border-radius: 50%;
+    border: solid black 5px;
+}
+
+.melrose-circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: #ADBAFF;
+    border-radius: 50%;
+    border: solid black 5px;
+}
+
+.sinbad-circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: #AFDDCD;
+    border-radius: 50%;
+    border: solid black 5px;
+}
+
+.cherokee-circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: #FFEAAD;
+    border-radius: 50%;
+    border: solid black 5px;
+}
+
+.mine-circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: #393939;
     border-radius: 50%;
     border: solid black 5px;
 }
