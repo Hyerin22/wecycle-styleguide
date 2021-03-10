@@ -242,26 +242,49 @@ body {
     width: 100%;
     height: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .color-description {
     display: flex;
     justify-content: left;
+    width: 100%;
     align-items: center;
 }
 
 
+
 .first-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    flex: 1;
+    padding: 0rem 5rem;
+    margin-left: 1rem;
 }
 
 .second-row {
-    background-color: blue;
+    display: flex;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 5rem 0rem;
+    font-family: "Poppins", sans-serif;
+
 }
 
 .color-hold {
     margin: 0rem 1rem;
+}
+
+
+.color-hold > p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
 }
 
 
