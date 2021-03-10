@@ -393,7 +393,16 @@ body {
 
 .subNav a:hover{
     color: #5769DF;
+    text-decoration: underline;
+    
 }
+.subNav a:focus{
+    text-decoration: underline;
+}
+/* .subNav a.active{
+    color: #5769DF;
+    text-decoration: underline;
+} */
 
 ul {
     list-style: none;
