@@ -664,3 +664,111 @@ h1 {
 .spoon {
   margin-top: 2.5rem;
 }
+
+/* ---------------------------------------------------- */
+/* logo */
+.logo-header{
+  display: block;
+  font-size: 3rem;
+  color: black;
+  font-family: 'Fredoka One', sans-serif;
+  margin-left: 6.25rem;
+}
+ 
+.logo-sub{
+  display: block;
+  font-size: 2.5rem;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-left: 6.25rem;
+  margin-bottom: 2rem;
+}
+ 
+.logo-description{
+  display: block;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+ 
+.criteria{
+  margin-left: 6rem;
+  margin-right: 6rem;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+}
+ 
+.criteria .text{
+  margin-right: 15rem;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+.criteria p{
+  text-align: left;
+}
+ 
+.black-white{
+  margin-left: 6rem;
+  margin-right: 6rem;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+ 
+.black-white .text{
+  font-size: 1.25rem;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+.black-white .logo{
+  margin-right: 15rem;
+}
+ 
+.colour{
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.colour img{
+  margin-right: 10rem;
+}
+ 
+.dos-donts{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: flex;
+}
+ 
+.dos-donts .sub{
+  font-size: 2rem;
+}
+ 
+.dos-donts p{
+  font-size: 1.5rem;
+  padding-right: 15rem;
+}
+ 
+.variations{
+  display: flex;
+  justify-content: space-evenly;
+}
+ 
+.main-logo{
+  display: flex;
+  justify-content: center;
+}
+
