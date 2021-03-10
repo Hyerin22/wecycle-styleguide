@@ -404,6 +404,9 @@ ul {
     font-family: 'Fredoka One', cursive;
     
 }
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
 .typo_content > p, h1{
     margin-left: 6.25rem;
 }
@@ -442,16 +445,32 @@ ul {
     color: #FFFFFF;
 }
 
+.poppins_first{
+    color: #393939;
+    font-weight: 900;
+}
+.poppins_second{
+    color: #000000;
+    font-weight: 400;
+}
+
 .color_examples{
     margin-left: 6.25rem;
 }
+.color_examples_2{
+    margin-left: 9rem;
+}
+.color_examples_3{
+    margin-left: 3.438rem;
+}
+
 .circle{
     width: 108px;
     height: 108px;
     border-radius: 50%;
     margin-right: 6.25rem;
     margin-bottom: 6.25rem;
-    justify-content: baseline;
+    margin-top: 6.25rem;
 }
 
 .text{
@@ -459,11 +478,16 @@ ul {
     align-items: center;
 }
 
-.text > p{
+.text > p {
     margin-top: 0;
     margin-bottom: 0.6rem;
     text-align: center;
 }
+
+.textLeft > p {
+    text-align: left;
+}
+
 .purple{
     font-size: 36px;
 }
@@ -477,6 +501,26 @@ ul {
     font-size: 25px;
 }
 
+.firstPoppins {
+    font-size: 34px;
+}
+.secondPoppins {
+    font-size: 25px;
+}
+.thirdPoppins{
+    font-size: 18px;
+}
+.fourthPoppins{
+    font-size: 16px;
+}
+.fifthPoppins{
+    font-size: 14px;
+}
+.sixthPoppins{
+    font-size: 11px;
+}
+
+
 .purple_bg{
     background-color: #5769DF;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -485,7 +529,19 @@ ul {
     background-color: #FFFFFF;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.black_bg{
+.lightBlack_bg{
     background-color: #393939;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.black_bg{
+    background-color: #000000;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.flexRight{
+    display: flex;
+    justify-content: flex-end;
+}
+.center{
+    align-items: center;
 }
