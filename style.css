@@ -254,16 +254,27 @@ body {
 
 .color-holder-2 {
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
     flex-direction: row;
+    width: 100%;
+    height: 100%;
 }
 
-.color-row {
-    margin: 2rem;
+
+.first-row {
     display: flex;
-    width: 100%;
-    height: 20rem;
+    flex: 1;
+    padding: 2rem;
+    flex-wrap: wrap;
     flex-direction: column;
+}
+.second-row {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: #5769DF;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
 
 /* FIRST COLOR */
@@ -282,9 +293,6 @@ body {
 }
 
 
-.second-row {
-    background-color: #F1F1F1;
-}
 
 .color-description {
     display: flex;
@@ -343,6 +351,45 @@ body {
     border-radius: 50%;
     border: solid black 5px;
 }
+
+/* THIRD ROW */
+.color-holder-3 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-section {
+    margin: 10rem;
+}
+.phone-section > img {
+    margin: 1rem;
+}
+
+/* BUTTON COLORS */
+.color-holder-4 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-section-color {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.button-section-color > img {
+    display: flex;
+    margin: 0rem 4.5rem;
+   
+}
+
 
 
 /* ---------------------------------------------------- */
