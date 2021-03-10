@@ -287,8 +287,9 @@ body {
     font-size: 1rem;
 }
 
-
 /* SECOND COLOR */
+
+
 
 /* INSIDE COLOR */
 .sienna-circle {
@@ -356,6 +357,7 @@ body {
 }
 
 /* BUTTON COLORS */
+
 .color-holder-4 {
     display: flex;
     width: 100%;
@@ -366,16 +368,25 @@ body {
 
 .button-section-color {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.button-section-color > img {
+.button-image {
     display: flex;
-    margin: 0rem 4.5rem;
-   
+    flex-direction: column;
+    margin: 0rem 5rem;
+    justify-content: center;
+    align-items: center;
 }
+
+.button-color-text {
+    font-size: 1.5rem;
+}
+
+
 /* ---------------------------------------------------- */
 /* typo */
 
