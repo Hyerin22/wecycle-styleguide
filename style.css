@@ -456,12 +456,16 @@ ul {
 
 .color_examples{
     margin-left: 6.25rem;
+    margin-bottom: 6.25rem;
 }
 .color_examples_2{
     margin-left: 9rem;
+    margin-bottom: 6.5rem;
 }
 .color_examples_3{
     margin-left: 3.438rem;
+    margin-bottom: 6.5rem;
+    
 }
 
 .circle{
@@ -469,8 +473,8 @@ ul {
     height: 108px;
     border-radius: 50%;
     margin-right: 6.25rem;
-    margin-bottom: 6.25rem;
-    margin-top: 6.25rem;
+    /* margin-bottom: 6.25rem;
+    margin-top: 6.25rem; */
 }
 
 .text{
