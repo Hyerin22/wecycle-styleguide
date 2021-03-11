@@ -722,6 +722,8 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
  
 .black-white .text{
@@ -740,10 +742,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10rem;
 }
  
 .colour img{
   margin-right: 10rem;
+  margin-top: 6rem;
 }
  
 .dos-donts{
