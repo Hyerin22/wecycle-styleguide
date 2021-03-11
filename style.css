@@ -237,59 +237,53 @@ body {
 }
 /* SECOND COLOR SECTION */
 
-.color-holder-2{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
+.color-holder-2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .color-description {
-    display: flex;
-    justify-content: left;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  align-items: center;
 }
 
-
-
 .first-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex: 1;
-    padding: 0rem 5rem;
-    margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  padding: 0rem 5rem;
+  margin-left: 1rem;
 }
 
 .second-row {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding: 5rem 0rem;
-    font-family: "Poppins", sans-serif;
-
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 5rem 0rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .color-hold {
-    margin: 0rem 1rem;
+  margin: 0rem 1rem;
 }
 
-
 .color-hold > p {
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
 }
 
 /* SECOND COLOR */
-
-
 
 /* INSIDE COLOR */
 .sienna-circle {
@@ -342,119 +336,114 @@ body {
 
 /* THIRD ROW */
 .color-holder-3 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .phone-section {
-    margin: 10rem;
+  margin: 10rem;
 }
 .phone-section > img {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 /* BUTTON COLORS */
 
 .color-holder-4 {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #5769DF;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5769df;
 }
 
 .button-section-color {
-    display: flex;
-    width: 100%;
-    font-family: "Poppins", sans-serif;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button-image {
-    display: flex;
-    flex-direction: column;
-    margin: 0rem 5rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-color-text {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .button-demo-text {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
 }
 
-
-
 .button-demo-text {
-    margin-top: 10rem 0rem;
+  margin-top: 10rem 0rem;
 }
 
 .demo-button {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .hoverbutton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18rem;
-    height: 6rem;
-    border-radius: 10px;
-    background-color: #E87C4B;
-    font-family: "Fredoka One", cursive;
-    color: white;
-    font-size: 2.2rem;
-    letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 6rem;
+  border-radius: 10px;
+  background-color: #e87c4b;
+  font-family: "Fredoka One", cursive;
+  color: white;
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
 }
 
 .hoverbutton2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40rem;
-    height: 6rem;
-    border-radius: 10px;
-    background-color: #8492ED;
-    font-family: "Fredoka One", cursive;
-    color: white;
-    font-size: 2.2rem;
-    letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 6rem;
+  border-radius: 10px;
+  background-color: #8492ed;
+  font-family: "Fredoka One", cursive;
+  color: white;
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
 }
 
 .hoverbutton2:hover {
-    background-color: #98A4F3;
+  background-color: #98a4f3;
 }
 
-.hoverbutton2:active{
-    background-color: #AFBAFF;
-    border: solid 5px #8492ED;
-
+.hoverbutton2:active {
+  background-color: #afbaff;
+  border: solid 5px #8492ed;
 }
 .hoverbutton:hover {
-    background-color: #E8936C;
+  background-color: #e8936c;
 }
 
 .hoverbutton:active {
-    background-color: #EEA381;
-    border: solid 5px #E8936C;
+  background-color: #eea381;
+  border: solid 5px #e8936c;
 }
-
 
 /* ---------------------------------------------------- */
 /* typo */
@@ -502,13 +491,12 @@ body {
   text-decoration: none;
 }
 
-.subNav a:hover{
-    color: #5769DF;
-    text-decoration: underline;
-    
+.subNav a:hover {
+  color: #5769df;
+  text-decoration: underline;
 }
-.subNav a:focus{
-    text-decoration: underline;
+.subNav a:focus {
+  text-decoration: underline;
 }
 
 .subNav a:hover {
@@ -697,12 +685,14 @@ h1 {
 .icon-lists {
   padding: 0;
   margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .icon {
   font-size: 1.5rem;
   color: #5a5a5a;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   align-items: center;
 }
 
@@ -710,7 +700,7 @@ h1 {
 
 .imagery-container {
   margin-left: 6.25rem;
-  margin-top: 8rem;
+  margin-top: 6rem;
   font-family: "poppins", sans-serif;
 }
 
@@ -724,7 +714,7 @@ h1 {
   max-width: 65vw;
   margin: auto;
   grid-gap: 6rem 2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
   margin-top: 7rem;
 }
 
@@ -736,7 +726,7 @@ h1 {
 
 /* ---------------------------------------------------- */
 /* logo */
-.logo-header{
+.logo-header {
   display: block;
   font-size: 3rem;
   color: black;
@@ -744,8 +734,8 @@ h1 {
   font-weight: 900;
   margin-left: 6.25rem;
 }
- 
-.logo-sub{
+
+.logo-sub {
   display: block;
   font-size: 2.5rem;
   color: black;
@@ -754,59 +744,59 @@ h1 {
   margin-left: 6.25rem;
   margin-bottom: 2rem;
 }
- 
-.logo-description{
+
+.logo-description {
   display: block;
   font-size: 1.5rem;
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-left: 6rem;
   margin-right: 6rem;
 }
- 
-.criteria{
+
+.criteria {
   margin-left: 6rem;
   margin-right: 6rem;
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   display: flex;
 }
- 
-.criteria .text{
+
+.criteria .text {
   margin-right: 15rem;
   font-size: 1.5rem;
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
- 
-.criteria p{
+
+.criteria p {
   text-align: left;
 }
- 
-.black-white{
+
+.black-white {
   margin-left: 6rem;
   margin-right: 6rem;
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-evenly;
   align-items: baseline;
   margin-bottom: 6rem;
   margin-top: 6rem;
 }
- 
-.black-white .text{
+
+.black-white .text {
   font-size: 1.25rem;
   color: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
- 
-.black-white .logo{
+
+.black-white .logo {
   margin-right: 15rem;
 }
- 
-.colour{
+
+.colour {
   margin-left: 6rem;
   margin-right: 6rem;
   display: flex;
@@ -814,35 +804,34 @@ h1 {
   align-items: center;
   margin-bottom: 10rem;
 }
- 
-.colour img{
+
+.colour img {
   margin-right: 10rem;
   margin-top: 6rem;
 }
- 
-.dos-donts{
-  font-family: 'Poppins', sans-serif;
+
+.dos-donts {
+  font-family: "Poppins", sans-serif;
   margin-left: 6rem;
   margin-right: 6rem;
   display: flex;
 }
- 
-.dos-donts .sub{
+
+.dos-donts .sub {
   font-size: 2rem;
 }
- 
-.dos-donts p{
+
+.dos-donts p {
   font-size: 1.5rem;
   padding-right: 15rem;
 }
- 
-.variations{
+
+.variations {
   display: flex;
   justify-content: space-evenly;
 }
- 
-.main-logo{
+
+.main-logo {
   display: flex;
   justify-content: center;
 }
-
