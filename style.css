@@ -740,7 +740,8 @@ h1 {
   display: block;
   font-size: 3rem;
   color: black;
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
   margin-left: 6.25rem;
 }
  
@@ -749,7 +750,7 @@ h1 {
   font-size: 2.5rem;
   color: black;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: 300;
   margin-left: 6.25rem;
   margin-bottom: 2rem;
 }
