@@ -46,6 +46,10 @@ body {
   color: white;
 }
 
+.menu-list > li > a:hover {
+  color: #ffeaad;
+}
+
 /* ---------------------------------------------------- */
 
 /* COLOR */
@@ -337,6 +341,19 @@ body {
 }
 
 /* THIRD ROW */
+
+
+#color-heading {
+  font-size: 48px;
+  font-family: "Fredoka One", cursive;
+  margin-left: 100px;
+}
+
+#color-texts {
+  font-family: "Poppins", sans-serif;
+  margin-left: 100px;
+}
+
 .color-holder-3 {
   display: flex;
   width: 100%;
@@ -393,6 +410,10 @@ body {
 
 .button-demo-text {
   margin-top: 10rem 0rem;
+}
+
+.space {
+  margin-top: 10em;
 }
 
 .demo-button {
@@ -839,7 +860,58 @@ h1 {
   justify-content: center;
 }
 /* home */
-.home_logo{
+.home_logo
+{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #5769df;
+  height: 1000px;
+}
+
+.home_logo_part
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-holder
+{
+  display: flex;
+  flex: 1;
+}
+
+
+.text-logo
+{
+  display: flex;
+  flex-direction: column;
+  font-family: "Fredoka One", cursive;
+  text-align: left;
+  color: white;
+  font-size: 150px;
+  line-height: 5px;
+}
+
+#home-sub
+{
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.image-logo
+{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .home_logo{
   width: 100%;
   height: 50%;
   min-height: 1000px;
@@ -850,7 +922,7 @@ h1 {
   justify-content: center;
   align-items: center;
   
-}
+} 
 .page_logo{
   width: 20rem;
   height: 20rem;
@@ -863,8 +935,7 @@ h1 {
   color: white;
   font-size: 95px;
   line-height: 115px;
-  
-}
+} */
 
 .home_about{
   background-color: #F2F4FF;
