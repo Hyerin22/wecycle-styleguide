@@ -78,8 +78,9 @@ body {
   flex-flow: wrap;
   justify-content: left;
   padding-left: 1rem;
-  font-family: "Fredoka One", cursive;
+  font-family: "Poppins", sans-serif;
   margin-top: 2rem;
+  font-weight: 800;
 }
 
 .color {
@@ -342,11 +343,11 @@ body {
 
 /* THIRD ROW */
 
-
 #color-heading {
   font-size: 48px;
-  font-family: "Fredoka One", cursive;
+  font-family: "poppins", sans-serif;
   margin-left: 100px;
+  font-weight: 800;
 }
 
 #color-texts {
@@ -858,10 +859,16 @@ h1 {
 .main-logo {
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.hor-logo {
+  width: 37rem;
+  height: 15rem;
+  margin-top: 1rem;
 }
 /* home */
-.home_logo
-{
+.home_logo {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -870,8 +877,7 @@ h1 {
   height: 1000px;
 }
 
-.home_logo_part
-{
+.home_logo_part {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -879,15 +885,12 @@ h1 {
   align-items: center;
 }
 
-.home-holder
-{
+.home-holder {
   display: flex;
   flex: 1;
 }
 
-
-.text-logo
-{
+.text-logo {
   display: flex;
   flex-direction: column;
   font-family: "Fredoka One", cursive;
@@ -897,19 +900,16 @@ h1 {
   line-height: 5px;
 }
 
-#home-sub
-{
+#home-sub {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   margin-left: 30px;
 }
 
-.image-logo
-{
+.image-logo {
   display: flex;
   justify-content: center;
 }
-
 
 /* .home_logo{
   width: 100%;
@@ -937,42 +937,42 @@ h1 {
   line-height: 115px;
 } */
 
-.home_about{
-  background-color: #F2F4FF;
+.home_about {
+  background-color: #f2f4ff;
   width: 100%;
   min-height: 1000px;
 }
-.about_app{
+.about_app {
   margin-left: 11.25rem;
   margin-top: 7.5rem;
 }
-.about_header{
+.about_header {
   font-size: 56px;
   font-family: "Poppins", sans-serif;
   color: #353535;
   font-weight: 700;
 }
-.about_content{
+.about_content {
   font-size: 47px;
   font-family: "Poppins", sans-serif;
   color: #414141;
   margin-right: 13.75rem;
   font-weight: 400;
 }
-.home_footer{
+.home_footer {
   border-top: solid 1px #bdbdbd;
   width: 100%;
   text-align: center;
 }
 
-.footer_logo_part{
+.footer_logo_part {
   display: flex;
-  margin-top: 3.438rem;
+  margin-top: 1.5rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
 }
-.footer_logo_part > p{
+.footer_logo_part > p {
   font-size: 74px;
   font-weight: 400;
   font-family: "Fredoka One", cursive;
@@ -980,14 +980,14 @@ h1 {
   margin-left: 2.813rem;
 }
 
-.footer_logo{
-  width: 7.813rem;
-  height: 7.813rem;
+.footer_logo {
+  width: 4rem;
+  height: 4rem;
 }
-.copyright{
+.copyright {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
-  font-weight: 400;
+  font-weight: 300;
   color: #5769df;
   margin-bottom: 3.75rem;
 }
